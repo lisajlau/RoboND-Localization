@@ -91,7 +91,6 @@
   </link>
 
   <link name='left_wheel'>
-    <pose>0 0 0 0 1.5707 1.5707</pose>
 
     <inertial>
       <mass value="5.0"/>
@@ -104,14 +103,14 @@
     </inertial>
 
     <collision>
-      <origin xyz="0 -0.025 0" rpy=" 1.57075 0 0"/>
+      <origin xyz="0 0 0 0" rpy="0 1.5707 1.5707"/>
       <geometry>
         <cylinder radius="0.1" length="0.05"/>
       </geometry>
     </collision>
 
     <visual>
-      <origin xyz="0 -0.025 0" rpy=" 1.57075 0 0"/>
+      <origin xyz="0 0 0 0" rpy="0 1.5707 1.5707"/>
       <geometry>
         <cylinder radius="0.1" length="0.05"/>
       </geometry>
